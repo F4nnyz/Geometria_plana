@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Guerra | Segunda Guerra Mundial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="antes_guerra.html">Antes da Guerra</a>
+        <a href="a_guerra.html">A Guerra</a>
+        <a href="brasil_na_guerra.html">Brasil na Guerra</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+            <section>
+
+    <h2>A Guerra</h2>
+
+    <div class="destaque-inicio">
+
+        <img src="imagens/A_Guerra.png" alt="antes da guerra">
+
+        <div class="texto-destaque">
+
+            <h3>O mundo entra em guerra</h3>
+
+            <p>
+                Em 1939, a invasão da Polônia pela Alemanha marcou
+                o início da Segunda Guerra Mundial. Nos anos seguintes,
+                o conflito se espalhou por diferentes regiões do mundo,
+                envolvendo as principais potências da época.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- O restante do conteúdo da página continua aqui -->
+
+            <!-- EIXO E ALIADOS -->
+
+            <div class="blocos-guerra">
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('eixo')">
+                    <h3>Eixo</h3>
+
+                    <p>
+                        Alemanha, Itália e Japão
+                    </p>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+                <div class="seta-guerra">
+                    →
+                </div>
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('aliados')">
+                    <h3>Aliados</h3>
+
+                    <p>
+                        Reino Unido, França,
+                        União Soviética e Estados Unidos
+                    </p>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+            </div>
+
+            <!-- CONTEÚDO DO EIXO -->
+
+            <div id="eixo" class="conteudo-guerra">
+
+                <h3>Potências do Eixo</h3>
+
+                <p>
+                    O Eixo foi formado principalmente por Alemanha,
+                    Itália e Japão. Esses países possuíam governos
+                    autoritários e adotavam políticas expansionistas.
+                </p>
+
+                <p>
+                    A Alemanha nazista, liderada por Adolf Hitler,
+                    buscava ampliar seus territórios na Europa.
+                    A Itália fascista, comandada por Benito Mussolini,
+                    buscava expandir sua influência no Mediterrâneo
+                    e na África.
+                </p>
+
+                <p>
+                    O Japão desenvolvia um projeto expansionista na Ásia
+                    e no Oceano Pacífico, ocupando territórios e buscando
+                    ampliar seu acesso a recursos naturais.
+                </p>
+
+            </div>
+
+            <!-- CONTEÚDO DOS ALIADOS -->
+
+            <div id="aliados" class="conteudo-guerra">
+
+                <h3>Potências Aliadas</h3>
+
+                <p>
+                    Entre as principais potências Aliadas estavam
+                    Reino Unido, França, União Soviética
+                    e Estados Unidos.
+                </p>
+
+                <p>
+                    A composição dos Aliados mudou durante o conflito.
+                    A União Soviética passou a combater diretamente
+                    a Alemanha após a invasão alemã de seu território
+                    em 1941.
+                </p>
+
+                <p>
+                    No mesmo ano, os Estados Unidos entraram na guerra
+                    após o ataque japonês à base naval de Pearl Harbor.
+                    A entrada norte-americana ampliou significativamente
+                    os recursos militares e econômicos disponíveis
+                    aos Aliados.
+                </p>
+
+            </div>
+
+            <!-- LINHA DO TEMPO -->
+
+            <div class="linha-tempo">
+
+                <h3>Linha do Tempo</h3>
+
+                <div class="anos">
+
+                    <button onclick="mostrarAno('ano1939', this)">
+                        1939
+                    </button>
+
+                    <button onclick="mostrarAno('ano1941', this)">
+                        1941
+                    </button>
+
+                    <button onclick="mostrarAno('ano1942', this)">
+                        1942-43
+                    </button>
+
+                    <button onclick="mostrarAno('ano1944', this)">
+                        1944
+                    </button>
+
+                    <button onclick="mostrarAno('ano1945', this)">
+                        1945
+                    </button>
+
+                </div>
+
+                <!-- 1939 -->
+
+                <div id="ano1939" class="evento">
+
+                    <h4>1939 - O início da guerra</h4>
+
+                    <p>
+                        Em 1º de setembro de 1939, tropas alemãs
+                        invadiram a Polônia. Dois dias depois,
+                        Reino Unido e França declararam guerra
+                        à Alemanha.
+                    </p>
+
+                    <p>
+                        Nos primeiros anos do conflito, a Alemanha utilizou
+                        uma estratégia conhecida como
+                        <strong>Blitzkrieg</strong>, ou guerra-relâmpago.
+                    </p>
+
+                    <p>
+                        A estratégia combinava ataques rápidos de forças
+                        terrestres, tanques e aviação para romper as defesas
+                        inimigas antes que o adversário tivesse tempo
+                        de reorganizar suas tropas.
+                    </p>
+
+                    <p>
+                        A Blitzkrieg permitiu rápidas conquistas alemãs
+                        em diversos territórios europeus.
+                    </p>
+
+                </div>
+
+                <!-- 1941 -->
+
+                <div id="ano1941" class="evento">
+
+                    <h4>1941 - A guerra ganha dimensão global</h4>
+
+                    <p>
+                        Em junho de 1941, Hitler iniciou a
+                        <strong>Operação Barbarossa</strong>,
+                        uma gigantesca ofensiva militar contra
+                        a União Soviética.
+                    </p>
+
+                    <p>
+                        A invasão rompeu o pacto de não agressão que
+                        Alemanha e União Soviética haviam assinado em 1939.
+                        A partir daquele momento, os soviéticos passaram
+                        a combater diretamente a Alemanha.
+                    </p>
+
+                    <p>
+                        Em dezembro de 1941, o Japão atacou a base naval
+                        norte-americana de <strong>Pearl Harbor</strong>,
+                        no Havaí.
+                    </p>
+
+                    <p>
+                        O ataque levou os Estados Unidos a entrarem
+                        oficialmente na guerra. Com a participação direta
+                        dos Estados Unidos e da União Soviética,
+                        o equilíbrio de forças começou a mudar.
+                    </p>
+
+                </div>
+
+                <!-- 1942-1943 -->
+
+                <div id="ano1942" class="evento">
+
+                    <h4>1942-1943 - A virada da guerra</h4>
+
+                    <p>
+                        Entre 1942 e 1943 ocorreram batalhas decisivas
+                        que começaram a alterar o rumo do conflito
+                        em favor dos Aliados.
+                    </p>
+
+                    <p>
+                        Na <strong>Batalha de Stalingrado</strong>,
+                        tropas alemãs e soviéticas enfrentaram-se
+                        em um dos combates mais violentos da guerra.
+                    </p>
+
+                    <p>
+                        Em fevereiro de 1943, as forças alemãs cercadas
+                        em Stalingrado se renderam.
+                    </p>
+
+                    <p>
+                        A vitória soviética representou um importante
+                        ponto de virada na frente oriental. A partir daí,
+                        o Exército Vermelho avançou progressivamente
+                        em direção à Alemanha.
+                    </p>
+
+                    <p>
+                        No Oceano Pacífico, os Estados Unidos também
+                        começaram a conter a expansão japonesa.
+                        A <strong>Batalha de Midway</strong>, em 1942,
+                        foi uma importante vitória norte-americana.
+                    </p>
+
+                </div>
+
+                <!-- 1944 -->
+
+                <div id="ano1944" class="evento">
+
+                    <h4>1944 - O Dia D</h4>
+
+                    <p>
+                        Em 6 de junho de 1944, tropas dos Aliados
+                        desembarcaram nas praias da Normandia,
+                        no norte da França.
+                    </p>
+
+                    <p>
+                        A operação ficou conhecida como
+                        <strong>Dia D</strong> e abriu uma nova frente
+                        de combate contra as forças alemãs
+                        na Europa Ocidental.
+                    </p>
+
+                    <p>
+                        Nos meses seguintes, os Aliados avançaram
+                        pelo território francês. Paris foi libertada
+                        em agosto de 1944.
+                    </p>
+
+                    <p>
+                        Enquanto isso, tropas soviéticas continuavam
+                        avançando pelo leste europeu em direção
+                        ao território alemão.
+                    </p>
+
+                </div>
+
+                <!-- 1945 -->
+
+                <div id="ano1945" class="evento">
+
+                    <h4>1945 - O fim da Segunda Guerra Mundial</h4>
+
+                    <p>
+                        No início de 1945, a Alemanha estava sendo
+                        pressionada pelos Aliados no oeste
+                        e pelas forças soviéticas no leste.
+                    </p>
+
+                    <p>
+                        Tropas soviéticas chegaram a Berlim em abril.
+                        Adolf Hitler morreu no final daquele mês
+                        e, poucos dias depois, a Alemanha se rendeu.
+                    </p>
+
+                    <p>
+                        A guerra na Europa terminou em maio de 1945,
+                        mas os combates continuaram no Oceano Pacífico.
+                    </p>
+
+                    <p>
+                        Em agosto, os Estados Unidos lançaram bombas
+                        atômicas sobre as cidades japonesas de
+                        <strong>Hiroshima</strong> e
+                        <strong>Nagasaki</strong>.
+                    </p>
+
+                    <p>
+                        O Japão anunciou sua rendição em agosto de 1945,
+                        encerrando a Segunda Guerra Mundial.
+                    </p>
+
+                    <p>
+                        O uso das bombas atômicas permanece objeto
+                        de debates históricos sobre sua necessidade,
+                        seus efeitos sobre a população civil e as
+                        circunstâncias que levaram à rendição japonesa.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto Segunda Guerra Mundial</p>
+        <p>Colégio São Luiz - unidade 3 - alunos do 3º ano do Ensino Médio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
