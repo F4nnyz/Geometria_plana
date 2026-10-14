@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Guerra | Segunda Guerra Mundial</title>
+    <title>Os Ângulos | Geometria Plana</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,9 +13,9 @@
     <!-- MENU -->
     <nav>
         <a href="index.html">Início</a>
-        <a href="antes_guerra.html">Antes da Guerra</a>
-        <a href="a_guerra.html">A Guerra</a>
-        <a href="brasil_na_guerra.html">Brasil na Guerra</a>
+        <a href="formas.html">Formas Geométricasa</a>
+        <a href="angulos.html">Ângulos</a>
+        <a href="formulas.html">Formulas</a>
         <a href="quiz.html">Quiz</a>
     </nav>
 
@@ -25,7 +25,7 @@
 
             <section>
 
-    <h2>A Guerra</h2>
+    <h2>Os Ângulos</h2>
 
     <div class="destaque-inicio">
 
@@ -33,14 +33,21 @@
 
         <div class="texto-destaque">
 
-            <h3>O mundo entra em guerra</h3>
+            <h3>O que é um ângulo?</h3>
 
             <p>
-                Em 1939, a invasão da Polônia pela Alemanha marcou
-                o início da Segunda Guerra Mundial. Nos anos seguintes,
-                o conflito se espalhou por diferentes regiões do mundo,
-                envolvendo as principais potências da época.
+              Um ângulo é uma abertura formada por duas semirretas que possuem a mesma origem. 
+              O ponto em comum entre elas é chamado de vértice, enquanto as semirretas são chamadas
+               de lados do ângulo. (Por exemplo, no ângulo AÔB; “Ô” é o vértice; “OA” e “OB” são os lados e a abertura do ângulo)
             </p>
+
+            <p>
+                Os ângulos são normalmente medidos em graus (°) ou em radiano (rad). 
+                360° = 2π rad e 180° = 1π rad.
+            </p>
+            
+            
+            
 
         </div>
 
@@ -48,30 +55,30 @@
 
     <!-- O restante do conteúdo da página continua aqui -->
 
-            <!-- EIXO E ALIADOS -->
+            <!-- Tipos e Medidas -->
 
-            <div class="blocos-guerra">
+            <div class="blocos-angulos">
 
-                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('eixo')">
-                    <h3>Eixo</h3>
+                <button class="bloco-angulo" onclick="mostrarBlocoAngulo('Tiposdeangulos')">
+                    <h3>Tipos De Ângulos</h3>
 
                     <p>
-                        Alemanha, Itália e Japão
+                        Ângulos agudo; reto; obtuso; <br>raso; complementares;
+                         suplementares;<br> consecutivos; adjacentes; congruentes e oposto
                     </p>
 
                     <span>Clique para saber mais</span>
                 </button>
 
-                <div class="seta-guerra">
+                <div class="seta-angulo">
                     →
                 </div>
 
-                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('aliados')">
-                    <h3>Aliados</h3>
+                <button class="bloco-angulo" onclick="mostrarBlocoAngulo('Medidas')">
+                    <h3>Medidas</h3>
 
                     <p>
-                        Reino Unido, França,
-                        União Soviética e Estados Unidos
+                        Medidas do ângulo: Grau (°) ou radiano (π)
                     </p>
 
                     <span>Clique para saber mais</span>
@@ -79,37 +86,40 @@
 
             </div>
 
-            <!-- CONTEÚDO DO EIXO -->
+            <!-- CONTEÚDO DO Tipos -->
 
-            <div id="eixo" class="conteudo-guerra">
+            <div id="Tiposdeangulo" class="conteudo-angulo">
 
-                <h3>Potências do Eixo</h3>
-
-                <p>
-                    O Eixo foi formado principalmente por Alemanha,
-                    Itália e Japão. Esses países possuíam governos
-                    autoritários e adotavam políticas expansionistas.
-                </p>
+                <h3>Os Tipos de ângulos são:</h3>
 
                 <p>
-                    A Alemanha nazista, liderada por Adolf Hitler,
-                    buscava ampliar seus territórios na Europa.
-                    A Itália fascista, comandada por Benito Mussolini,
-                    buscava expandir sua influência no Mediterrâneo
-                    e na África.
+                     •Ângulo agudo: É aquele que possui medida menor que 90° (0° < α < 90°) <br>
+<br>
+    •Ângulo reto: Possui exatamente 90° (α = 90°) <br>
+<br>
+    •Ângulo obtuso: É maior que 90° e menor que 180° (90° < α < 180°) <br>
+<br>
+    •Ângulo raso: Possui exatamente 180° (α = 180°)<br>
+<br>
+    •Ângulos complementares: A soma de dois ângulos ser 90° (α + β = 90°) <br>
+<br>
+    •Ângulos suplementares: A soma de dois ângulos ser 180° (α + β = 180°) <br>
+<br>
+    •Ângulos consecutivos: São ângulos que possuem em comum o mesmo vértice e um dos lados. <br>
+<br>
+    •Ângulos adjacentes: São ângulos consecutivos que não possuem pontos internos em comum. <br>
+<br>
+    •Ângulos congruentes: São ângulos que possuem a mesma medida. <br>
+<br>
+    •Ângulos opostos pelo vértice: Surgem quando duas retas se cruzam. Os ângulos que ficam em posições opostas possuem a mesma medida.
                 </p>
 
-                <p>
-                    O Japão desenvolvia um projeto expansionista na Ásia
-                    e no Oceano Pacífico, ocupando territórios e buscando
-                    ampliar seu acesso a recursos naturais.
-                </p>
 
             </div>
 
-            <!-- CONTEÚDO DOS ALIADOS -->
+            <!-- CONTEÚDO DAS MEDIDAS-->
 
-            <div id="aliados" class="conteudo-guerra">
+            <div id="Medidas" class="conteudo-angulo">
 
                 <h3>Potências Aliadas</h3>
 
